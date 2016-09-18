@@ -5,4 +5,4 @@ RUN \
   ./install-deps && \
   ./install.sh && \
   ./clean.sh && \
-  rm -rf /var/lib/apt/lists/*
+  rm -rf /var/lib/apt/lists/* /var/tmp* /var/cache/apt/archives /tmp/OpenBLAS
